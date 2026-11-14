@@ -1,0 +1,50 @@
+# Snellingen Studio
+
+> Snellingen Studio is a small Norwegian studio that makes games for young children. Its games are paid for once and have no ads, no in-app purchases, no subscriptions, no accounts and no tracking.
+
+## Squishies
+
+Squishies is a calm collecting game for iPad and Android. Open boxes, find more than 90 soft squishies, squish them, look after them and play eight small games. Paid once: no ads, no in-app purchases, no tracking.
+
+- Kind: collecting game for children aged 3 to 8
+- Platforms: iPad (iPadOS 17 or later), Android tablets and phones
+- Languages: Norwegian (bokmål) and English
+- Business model: paid once in the store; no ads, no in-app purchases, no subscriptions
+- Privacy: no accounts, no analytics, no data leaves the device; works offline
+- Status: not released yet (page updated 2026-11-14); coming to the App Store and Google Play
+- Contact: snellingen.studio@gmail.com
+
+### What a child does
+
+- Open a box and see who is inside: Tear off the band, cut the film and lift the lid. Light pours out, and there it is: a new squishy. Every box is a small surprise, and the rare ones glow.
+- Collect more than 90 squishies: Fourteen series, each with its own shelf: animals, food, sea, space, dinosaurs, bugs, birds, sport, party and more. Stars show how rare a squishy is, from one star to four.
+- Squish them and look after them: Press, pull and throw a squishy and it wobbles like jelly. Give it a biscuit, wash it with soap, brush it. Nothing has to be done and nothing is ever lost. The more you play together, the fonder it gets.
+- Play eight small games: Match three, stack a tower, catch, find pairs, hop on clouds, pop up, fly and launch. Every game gives coins, and coins buy new boxes. Coins come from playing only.
+- Make your own squishy: Choose a shape, a colour, a finish and a face in the workshop, and your own squishy joins the collection.
+
+### Questions and answers
+
+**What is Squishies?** Squishies is a collecting game for young children. A child opens boxes, finds soft toy characters called squishies, squishes them, looks after them and plays small games with them. It is made by Snellingen Studio in Norway.
+
+**What age is it for?** It is made for children aged 3 to 8. No reading is needed: the buttons are pictures, and a pointing hand shows what to do.
+
+**Which devices does it run on?** iPad (iPadOS 17 or later) and Android tablets and phones.
+
+**Does it have ads or in-app purchases?** No. The game is paid for once in the store. It has no ads, no in-app purchases and no subscriptions. The coins in the game are earned by playing and cannot be bought.
+
+**Does it collect any data?** No. The game has no accounts and no analytics, and it sends nothing from the device. Progress is saved on the device only.
+
+**Does it need the internet?** No. Once installed, it works fully offline.
+
+**How many squishies are there?** More than 90, in fourteen series, in four grades of rarity. Children can also make their own in the workshop.
+
+**Which languages does it have?** Norwegian and English.
+
+**When is it out?** Soon, on the App Store and Google Play. This page will have the links when it is.
+
+## Pages
+
+- [Squishies (English)](https://snellingen.github.io/snellingen-studio/squishies/)
+- [Squishies (norsk)](https://snellingen.github.io/snellingen-studio/squishies/no/)
+- [Privacy notice](https://snellingen.github.io/snellingen-studio/squishies/privacy.html)
+- [Support](https://snellingen.github.io/snellingen-studio/squishies/support.html)
