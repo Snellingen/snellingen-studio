@@ -46,5 +46,7 @@ Squishies is a calm collecting game for iPad and Android. Open boxes, find more 
 
 - [Squishies (English)](https://snellingen.github.io/snellingen-studio/squishies/)
 - [Squishies (norsk)](https://snellingen.github.io/snellingen-studio/squishies/no/)
+- [Snellingen Studio (English)](https://snellingen.github.io/snellingen-studio/)
+- [Snellingen Studio (norsk)](https://snellingen.github.io/snellingen-studio/no/)
 - [Privacy notice](https://snellingen.github.io/snellingen-studio/squishies/privacy.html)
 - [Support](https://snellingen.github.io/snellingen-studio/squishies/support.html)

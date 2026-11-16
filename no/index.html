@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snellingen Studio · Små spill for små hender</title>
+<meta name="description" content="Snellingen Studio er et lite norsk studio som lager rolige spill for små barn. Betal én gang: ingen reklame, ingen kjøp i appen, ingen sporing.">
+<link rel="canonical" href="https://snellingen.github.io/snellingen-studio/no/">
+<link rel="alternate" hreflang="en" href="https://snellingen.github.io/snellingen-studio/"><link rel="alternate" hreflang="nb" href="https://snellingen.github.io/snellingen-studio/no/">
+<link rel="icon" href="../logo.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="../squishies/img/icon_small.png">
+<meta name="theme-color" content="#fdeef4">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Snellingen Studio">
+<meta property="og:title" content="Snellingen Studio · Små spill for små hender"><meta property="og:description" content="Snellingen Studio er et lite norsk studio som lager rolige spill for små barn. Betal én gang: ingen reklame, ingen kjøp i appen, ingen sporing."><meta property="og:url" content="https://snellingen.github.io/snellingen-studio/no/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Snellingen Studio","url":"https://snellingen.github.io/snellingen-studio/","logo":"https://snellingen.github.io/snellingen-studio/logo.svg","email":"snellingen.studio@gmail.com"}</script>
+<style>
+@font-face{font-family:"Baloo 2";src:url("../squishies/fonts/baloo2.woff2") format("woff2");font-weight:400 800;font-display:swap}
+:root{color-scheme:light dark;--bg:#fff8f1;--bg2:#fdeef4;--ink:#2c2147;--soft:#625a7c;--card:#fff;--line:#f1dde8;--pink:#d92f73;--plum:#4a2c8c;--gold:#ffd23f;--mint:#7fe0c3;--night:#241552}
+@media (prefers-color-scheme:dark){:root{--bg:#171030;--bg2:#1f1640;--ink:#f3eefc;--soft:#b8aed6;--card:#251a4b;--line:#3a2d66;--pink:#ff8fbc;--plum:#cdb8ff}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:1.0625rem/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+h1,h2,h3,.brand,.btn,.lang,.chip{font-family:"Baloo 2","Arial Rounded MT Bold",system-ui,sans-serif}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--pink)}
+.wrap{max-width:64rem;margin-inline:auto;padding-inline:1rem}
+header{position:relative;overflow:hidden;background:radial-gradient(120% 90% at 80% 0%,#ffd9ea 0,transparent 60%),radial-gradient(90% 80% at 0% 100%,#e3dcff 0,transparent 60%),var(--bg2)}
+@media (prefers-color-scheme:dark){header{background:radial-gradient(120% 90% at 80% 0%,#4a2470 0,transparent 60%),radial-gradient(90% 80% at 0% 100%,#2a2a6e 0,transparent 60%),var(--bg2)}}
+.top{display:flex;justify-content:space-between;align-items:center;padding-block:1rem}
+.brand{display:flex;align-items:center;gap:.6rem;color:var(--ink);text-decoration:none;font-weight:800;font-size:1.35rem;line-height:1}
+.brand svg{width:2.9rem;height:2.9rem;transition:transform .35s cubic-bezier(.3,2.4,.5,1);transform-origin:50% 90%}
+.brand:hover svg{transform:scale(1.1,.9)}
+.brand small{display:block;font:600 .7rem/1.4 system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
+.lang{font-weight:700;color:var(--plum);text-decoration:none;border:2px solid currentColor;border-radius:99rem;padding:.1rem .9rem}
+.hero{display:grid;gap:1.5rem;align-items:center;padding-block:2rem 4.5rem}
+@media (min-width:52rem){.hero{grid-template-columns:1.15fr 1fr;padding-top:3rem}}
+h1{font-size:clamp(2.6rem,7.5vw,4.4rem);line-height:1.02;margin:0;font-weight:800;color:var(--plum)}
+h1 em{font-style:normal;color:var(--pink)}
+.lead{font-size:1.2rem;color:var(--soft);max-width:32rem;margin:1rem 0 1.6rem}
+.btn{display:inline-block;font-weight:700;font-size:1.15rem;color:#fff;background:var(--pink);text-decoration:none;border-radius:99rem;padding:.55rem 1.5rem;box-shadow:0 .3rem 0 #8d1c4a;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}.btn:active{transform:translateY(2px);box-shadow:0 .1rem 0 #8d1c4a}
+.buns{position:relative;height:17rem;max-width:26rem;width:100%;margin-inline:auto}
+.buns img{position:absolute;filter:drop-shadow(0 .8rem .8rem rgba(36,21,82,.25));animation:bob 4.6s ease-in-out infinite}
+.buns img:nth-of-type(1){width:52%;left:24%;top:12%}
+.buns img:nth-of-type(2){width:34%;left:0;top:44%;animation-delay:1.2s}
+.buns img:nth-of-type(3){width:30%;right:0;top:0;animation-delay:2.3s}
+.blob{position:absolute;inset:auto 8% 0 8%;height:22%;border-radius:50%;background:rgba(74,44,140,.12);filter:blur(10px)}
+@keyframes bob{50%{transform:translateY(-.8rem) rotate(2deg)}}
+.wave{display:block;width:100%;height:3rem;margin-top:-3rem;position:relative}
+.wave path{fill:var(--bg)}
+section{padding-block:3rem}
+h2{font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.15;margin:0 0 1.5rem;font-weight:800;color:var(--plum);text-align:center}
+.game{display:grid;gap:0;background:var(--card);border:1px solid var(--line);border-radius:1.6rem;overflow:hidden;box-shadow:0 1rem 2.5rem rgba(74,44,140,.13)}
+@media (min-width:48rem){.game{grid-template-columns:1fr 1.15fr}}
+.game .pic{background:var(--night);display:flex;align-items:center;padding:1rem}
+.game .pic img{border-radius:1rem;border:.35rem solid #1b1238}
+.game .info{padding:1.6rem 1.6rem 1.8rem}
+.game .head{display:flex;gap:.9rem;align-items:center;margin-bottom:.6rem}
+.game .head img{width:4rem;height:4rem;border-radius:1rem;box-shadow:0 .3rem .8rem rgba(36,21,82,.25)}
+.game h3{font-size:2rem;line-height:1;margin:0;font-weight:800}
+.game .tag{margin:.15rem 0 0;color:var(--pink);font-weight:600}
+.game p{color:var(--soft);margin:.4rem 0 1rem}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin:0 0 1.2rem;padding:0;list-style:none}
+.chip{font-weight:700;font-size:.95rem;line-height:1;padding:.4rem .8rem;border-radius:99rem;background:var(--bg2);color:var(--plum)}
+.chip.soon{background:var(--gold);color:#3a2470}
+.links{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center}
+.small{font-size:.95rem}
+.next{margin-top:1.2rem;border:2px dashed var(--line);border-radius:1.6rem;padding:1.4rem;text-align:center;color:var(--soft)}
+.next h3{margin:0;font-size:1.4rem;color:var(--ink)}.next p{margin:.2rem 0 0}
+.band{background:var(--bg2)}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));margin:0;padding:0;list-style:none}
+.grid li{background:var(--card);border:1px solid var(--line);border-radius:1.2rem;padding:1.2rem 1.3rem}
+.grid svg{width:2.4rem;height:2.4rem;fill:none;stroke:var(--pink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;background:var(--bg2);border-radius:.8rem;padding:.35rem}
+.grid h3{margin:.6rem 0 .2rem;font-size:1.3rem;font-weight:700}
+.grid p{margin:0;color:var(--soft)}
+.about{max-width:40rem;margin:0 auto;text-align:center;color:var(--soft);font-size:1.15rem}
+footer{padding-block:2.5rem 3.5rem;text-align:center;color:var(--soft);font-size:.95rem;border-top:1px solid var(--line)}
+footer svg{width:3.2rem;height:3.2rem;margin:0 auto .6rem;display:block}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap top"><a class="brand" href="../"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9ccb"/><stop offset="1" stop-color="#e0387a"/></linearGradient></defs>
+<path d="M7 45C7 25 18 13 32 13S57 25 57 45c0 7-9 10-25 10S7 52 7 45Z" fill="url(#g)"/>
+<path d="M7 45c0 7 9 10 25 10s25-3 25-10c-4 4-12 6-25 6S11 49 7 45Z" fill="#4a2c8c" opacity=".18"/>
+<ellipse cx="22" cy="24" rx="7" ry="4" transform="rotate(-24 22 24)" fill="#fff" opacity=".55"/>
+<circle cx="24" cy="37" r="3.2" fill="#2c2147"/><circle cx="40" cy="37" r="3.2" fill="#2c2147"/>
+<circle cx="25.1" cy="35.9" r="1" fill="#fff"/><circle cx="41.1" cy="35.9" r="1" fill="#fff"/>
+<path d="M28.5 42.5q3.5 3.4 7 0" fill="none" stroke="#2c2147" stroke-width="2.4" stroke-linecap="round"/>
+<ellipse cx="18.5" cy="42.5" rx="3.6" ry="2.2" fill="#ff5d9e" opacity=".55"/><ellipse cx="45.5" cy="42.5" rx="3.6" ry="2.2" fill="#ff5d9e" opacity=".55"/>
+<path d="m51 4 2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.6-3.5 5-.7Z" fill="#ffd23f" stroke="#e8a800" stroke-width="1" stroke-linejoin="round"/>
+</svg><span>Snellingen Studio<small>Laget i Norge</small></span></a>
+<a class="lang" href="../" hreflang="en" lang="en">English</a></div>
+<div class="wrap hero">
+<div><h1>Små spill for <em>små hender</em></h1><p class="lead">Vi er et lite studio i Norge som lager rolige og glade spill for barn fra 3 til 8 år. Du betaler én gang, og det er alt. Ingen reklame, ingen triks, ingenting å kjøpe inni spillet.</p><a class="btn" href="#games">Se spillene våre</a></div>
+<div class="buns" aria-hidden="true"><span class="blob"></span><img src="../squishies/img/bun_bunny.webp" alt="" width="300" height="300"><img src="../squishies/img/bun_frog.webp" alt="" width="300" height="300"><img src="../squishies/img/bun_star.webp" alt="" width="300" height="300"></div>
+</div>
+<svg class="wave" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 24C240 48 480 48 720 24S1200 0 1440 24V48H0Z"/></svg>
+</header>
+<main>
+<section id="games" class="wrap">
+<h2>Spillene våre</h2>
+<article class="game">
+<div class="pic"><img src="../squishies/img/nb_01_home_small.webp" alt="Hjemskjermen i Squishies med en kanin-squishy på en eng" width="800" height="450" loading="lazy"></div>
+<div class="info">
+<div class="head"><img src="../squishies/img/icon.png" alt="" width="64" height="64"><div><h3>Squishies</h3><p class="tag">Åpne esken. Klem det som er inni.</p></div></div>
+<p>Et mykt og rolig samlespill for barn fra 3 til 8 år. Over 90 squishies å finne, klemme og stelle med, åtte små spill, og et verksted der du lager din egen.</p>
+<ul class="chips"><li class="chip">3–8 år</li><li class="chip">Norsk &amp; English</li><li class="chip">iPad · Android</li><li class="chip soon">Kommer snart</li></ul>
+<div class="links"><a class="btn" href="../squishies/no/">Om spillet</a>
+<a class="small" href="../squishies/privacy.html#nb">Personvern</a><a class="small" href="../squishies/support.html#nb">Hjelp</a></div>
+</div>
+</article>
+<div class="next"><h3>Flere spill er på vei</h3><p>Vi jobber med det neste nå. Det følger de samme reglene som det første.</p></div>
+</section>
+<section class="band"><div class="wrap">
+<h2>Vårt løfte til foreldre</h2>
+<ul class="grid"><li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 10h20v14H6z"/><path d="M6 15h20"/><circle cx="21" cy="20" r="1.6"/></svg><h3>Betal én gang</h3><p>Du kjøper spillet i butikken og eier det. Ingen abonnement, ingen kjøp i appen, ingen låste deler.</p></li><li><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="7" width="22" height="15" rx="3"/><path d="M4 28 28 4"/></svg><h3>Aldri reklame</h3><p>Ikke som bannere, ikke som videoer, ikke som belønning. Barnets skjerm er ikke reklameplass.</p></li><li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4 26 8v7c0 6-4.5 10.5-10 13C10.5 25.5 6 21 6 15V8Z"/><path d="m11.5 16 3.2 3.2 6-6.4"/></svg><h3>Ingen sporing</h3><p>Ingen kontoer, ingen analyse, ingenting forlater enheten. Spillene virker uten nett.</p></li><li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 17V8.5a2 2 0 0 1 4 0V15m0-2.5a2 2 0 0 1 4 0V15m0-1.5a2 2 0 0 1 4 0V16m0-1a2 2 0 0 1 4 0v4c0 5-3.5 9-8.5 9-3.5 0-5.5-1.5-7.5-4.5L5.5 19a2 2 0 0 1 3.5-2Z"/></svg><h3>Ingen lesing</h3><p>Bildeknapper og en pekende hånd viser vei, så de minste kan spille alene.</p></li><li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M22 6a11 11 0 1 0 4 15A9 9 0 0 1 22 6Z"/><path d="m24 4 .8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8Z"/></svg><h3>Rolig med vilje</h3><p>Ingen tidtakere, ingen rekker, ingen daglige oppgaver og ingenting å tape. Stopp når du vil.</p></li><li><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 7h14v10H11l-4 3v-3H5z"/><path d="M19 12h8v9h-2v3l-4-3h-6v-4"/></svg><h3>To språk</h3><p>Alle spillene er på norsk og engelsk fra første dag.</p></li></ul>
+</div></section>
+<section class="wrap">
+<h2>Om studioet</h2>
+<p class="about">Snellingen Studio er et lite studio i Norge. Vi lager spill vi gjerne gir til et lite barn: små, snille og hele, uten noe gjemt bak betalingsmur og uten noe som drar barnet tilbake for mer.</p>
+</section>
+</main>
+<footer class="wrap">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9ccb"/><stop offset="1" stop-color="#e0387a"/></linearGradient></defs>
+<path d="M7 45C7 25 18 13 32 13S57 25 57 45c0 7-9 10-25 10S7 52 7 45Z" fill="url(#g)"/>
+<path d="M7 45c0 7 9 10 25 10s25-3 25-10c-4 4-12 6-25 6S11 49 7 45Z" fill="#4a2c8c" opacity=".18"/>
+<ellipse cx="22" cy="24" rx="7" ry="4" transform="rotate(-24 22 24)" fill="#fff" opacity=".55"/>
+<circle cx="24" cy="37" r="3.2" fill="#2c2147"/><circle cx="40" cy="37" r="3.2" fill="#2c2147"/>
+<circle cx="25.1" cy="35.9" r="1" fill="#fff"/><circle cx="41.1" cy="35.9" r="1" fill="#fff"/>
+<path d="M28.5 42.5q3.5 3.4 7 0" fill="none" stroke="#2c2147" stroke-width="2.4" stroke-linecap="round"/>
+<ellipse cx="18.5" cy="42.5" rx="3.6" ry="2.2" fill="#ff5d9e" opacity=".55"/><ellipse cx="45.5" cy="42.5" rx="3.6" ry="2.2" fill="#ff5d9e" opacity=".55"/>
+<path d="m51 4 2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.6-3.5 5-.7Z" fill="#ffd23f" stroke="#e8a800" stroke-width="1" stroke-linejoin="round"/>
+</svg>
+<p>Spørsmål eller ideer? Skriv til oss på <a href="mailto:snellingen.studio@gmail.com">snellingen.studio@gmail.com</a></p>
+<p>© 2026 Snellingen Studio · Laget i Norge</p>
+</footer>
+</body>
+</html>
